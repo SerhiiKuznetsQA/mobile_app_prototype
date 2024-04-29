@@ -103,13 +103,6 @@ header {
     z-index: 99;
 }
 
-.hamburger {
-    cursor: pointer;
-    position: relative;
-    height: 14px;
-    width: 24px;
-
-}
 
 /* .hamburger span{
     margin-bottom: 5px;
@@ -151,7 +144,10 @@ header {
 
 .nav-bar {
     background-color: #07081C;
-    background-image: radial-gradient(circle at center, rgba(7, 8, 28, 1) 45%, rgba(0, 197, 235, 0.1), rgba(181, 68, 254, 0.1));
+    background-image:url(../image/gradient.svg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -163,6 +159,7 @@ header {
     justify-content: center;
 
 }
+
 
 
 .nav-bar.active {
